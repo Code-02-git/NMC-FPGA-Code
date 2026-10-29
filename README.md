@@ -4,7 +4,7 @@ This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)*
 
 ## Repository Structure. 
 
-**In the NMC-FPGA-Code/Encode/ and NMC-FPGA-Code/Decode/ Folder, we have the following files: **
+**'In the NMC-FPGA-Code/Encode/ and NMC-FPGA-Code/Decode/ Folder, we have the following files:'**
 
 - **`NMC_Encode.v`/ `NMC_Decode.v`** – Top-level Verilog module implementing the complete Non-Malleable Code (NMC) architecture for encoding and decoding.
 - **`AES_Enc.v` / `AES_Dec.v`** – Verilog implementation of the AES-128 encryption and decryption module.
