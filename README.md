@@ -2,11 +2,13 @@
 
 This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)** that employs the **Cipher Feedback (CFB) mode** of encryption, along with a **leakage-resilient CBC-MAC** instantiated using the **AES-128** block cipher. The project showcases a hardware architecture for secure encoding and decoding, providing robustness against tampering and enhancing resilience to information leakage. 
 
-## Repository Structure
+## Repository Structure. 
 
-- **`NMC.v`** – Top-level Verilog module implementing the complete Non-Malleable Code (NMC) architecture.
-- **`AES_Enc.v`** – Verilog implementation of the AES-128 encryption and decryption module.
-- **`Test_NMC_Input.v`** – It is a crucial component in the FPGA implementation of the NMC design. It contains the input vectors required to simulate and verify the NMC design. This file is essential for testing the design's functionality and ensuring that it meets the required specifications and standards. By using the Test_NMC_Input.v file, developers can effectively benchmark and verify the NMC design, which is vital for the security and integrity of the system.
+**In the NMC-FPGA-Code/Encode/ and NMC-FPGA-Code/Decode/ Folder, we have the following files: **
+
+- **`NMC_Encode.v`/ `NMC_Decode.v`** – Top-level Verilog module implementing the complete Non-Malleable Code (NMC) architecture for encoding and decoding.
+- **`AES_Enc.v` / `AES_Dec.v`** – Verilog implementation of the AES-128 encryption and decryption module.
+- **`Test_NMC_Input.v`** – It is a crucial component in the FPGA implementation of the NMC design. It contains the input vectors required to simulate and verify the NMC design. This file is essential for testing the design's functionality and ensuring that it meets the required specifications and standards. By using the Test_NMC_Input.v file, developers can effectively benchmark and verify the NMC design for encoding / decoding, which is vital for the security and integrity of the system.
 
 ## Requirements
 
