@@ -6,7 +6,7 @@ This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)*
 
 - **`NMC.v`** – Top-level Verilog module implementing the complete Non-Malleable Code (NMC) architecture.
 - **`AES_Enc.v`** – Verilog implementation of the AES-128 encryption and decryption module.
-- **`Test_NMC_Input.v`** – It contains the input vectors required to simulate and verify the NMC design.
+- **`Test_NMC_Input.v`** – It is a crucial component in the FPGA implementation of the NMC design. It contains the input vectors required to simulate and verify the NMC design. This file is essential for testing the design's functionality and ensuring that it meets the required specifications and standards. By using the Test_NMC_Input.v file, developers can effectively benchmark and verify the NMC design, which is vital for the security and integrity of the system.
 
 ## Requirements
 
