@@ -12,9 +12,9 @@ This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)*
 - **`NMC_Output_FPGA_encryption` / `NMC_Output_FPGA_decryption`** - Xilinx  ISE waveform output.
 ## Requirements
 
-- FPGA development environment (e.g.,  Xilinx ISE Design Suite 14.7 )
 - **Hardware requirements:** All experiments are conducted on a computer equipped with an Intel Core i5-8265U processor (x86_64   architecture) operating at 1.60 @GHz, 8 GB of RAM, and the Xilinx ISE Design Suite FPGA development environment.
 - **Software requirements:** Xilinx ISE Design Suite 14.7, Windows 11, C++17, Ubuntu 22.04 LTS.
+- **Data:** Synthetically generated cryptographic test vectors.
 
 ## Usage
 
