@@ -8,11 +8,13 @@ This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)*
 
 - **`NMC_Encode.v`/ `NMC_Decode.v`** – Top-level Verilog module implementing the complete Non-Malleable Code (NMC) architecture for encoding and decoding.
 - **`AES_Enc.v` / `AES_Dec.v`** – Verilog implementation of the AES-128 encryption and decryption module.
-- **`Test_NMC_Input.v`** – It is a crucial component in the FPGA implementation of the NMC design. It contains the input vectors required to simulate and verify the NMC design. This file is essential for testing the design's functionality and ensuring that it meets the required specifications and standards. By using the Test_NMC_Input.v file, developers can effectively benchmark and verify the NMC design for encoding / decoding, which is vital for the security and integrity of the system.
+- **`Test_NMC_Input.v`** – It is a crucial component in the FPGA implementation of the NMC design. It contains the input vectors required to simulate and verify the NMC design. This file is essential for testing the design's functionality and ensuring that it meets the required specifications and standards. By using the Test_NMC_Input.v file, developers can effectively benchmark and verify the NMC design for encoding / decoding, which is vital for the security and integrity of the system. Both the encode/decode folder contains the test vector.
 - **`NMC_Output_FPGA_encryption` / `NMC_Output_FPGA_decryption`** - Xilinx  ISE waveform output.
 ## Requirements
 
-- FPGA development environment (e.g., Xilinx )
+- FPGA development environment (e.g.,  Xilinx ISE Design Suite 14.7 )
+- **Hardware requirements:** All experiments are conducted on a computer equipped with an Intel Core i5-8265U processor (x86_64   architecture) operating at 1.60 @GHz, 8 GB of RAM, and the Xilinx ISE Design Suite FPGA development environment.
+- **Software requirements:** Xilinx ISE Design Suite 14.7, Windows 11, C++17, Ubuntu 22.04 LTS.
 
 ## Usage
 
