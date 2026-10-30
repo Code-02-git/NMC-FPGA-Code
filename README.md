@@ -2,7 +2,7 @@
 
 This repository presents an FPGA implementation of a **Non-Malleable Code (NMC)** that employs the **Cipher Feedback (CFB) mode** of encryption, along with a **leakage-resilient CBC-MAC** instantiated using the **AES-128** block cipher. The project showcases a hardware architecture for secure encoding and decoding, providing robustness against tampering and enhancing resilience to information leakage. 
 
-## Repository Structure. 
+## Repository Structure
 
 **In the NMC-FPGA-Code/Encode/ and NMC-FPGA-Code/Decode/ Folder, we have the following files:**
 
